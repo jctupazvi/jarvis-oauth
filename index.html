@@ -11,14 +11,18 @@
 </head>
 <body><main>
   <h1>JARVIS</h1>
-  <p class="note">A privately operated AI assistant. Not a public sign-up service.</p>
+  <p class="note">A private personal/household assistant. Only its owner authorizes Google account access. The application is not distributed or offered commercially; this website offers no registration.</p>
+  <p class="note"><strong>Publication status:</strong> Informational review copy. Publication of these disclosures does not certify OAuth compliance or clear unresolved operational checks.</p>
   <h2>About</h2>
-  <p>JARVIS is a personal AI assistant developed for use by its authorized operator. It supports voice and messaging interactions and can connect to Google services when the operator grants permission.</p>
+  <p>JARVIS supports voice and WhatsApp conversations and optional connections to Google Calendar and Gmail. “Privately operated” describes who runs the assistant; it does not mean that all processing stays on the operator’s device.</p>
   <h2>Google integrations</h2>
-  <p>With authorization, JARVIS can read calendar information and assist with calendar events and reminders. It can also access email and assist with owner-authorized email operations. Access is limited by the permissions granted during Google sign-in and by JARVIS's own authorization controls.</p>
-  <h2>Access</h2>
-  <p>JARVIS is not offered as a public application. Access to the assistant and its integrations is restricted to authorized users.</p>
+  <p>With Google account consent and the relevant JARVIS permissions, users can read selected calendars and request event creation, updates or deletion. Calendar changes require confirmation. Enabled reminders can run in the background and deliver event details through configured voice or WhatsApp channels.</p>
+  <p>Gmail features include listing and reading messages and threads, extractive summaries, and confirmed email sending and sender-only replies. Selected local files can be attached to confirmed outgoing messages. Incoming attachment handling is limited to metadata; JARVIS does not provide general Gmail attachment download or analysis.</p>
+  <h2>Access and processing</h2>
+  <p>Google tools use registered-user and tool-specific authorization controls. The local assistant interface is intended for an operator-controlled, trusted environment. Google account consent does not by itself authorize every JARVIS user or action.</p>
+  <p>The reviewed deployment uses Groq for conversational AI and WhatsApp through OpenWA. Conversation context may include earlier Google-data readouts and can be sent to Groq on a later AI turn. WhatsApp replies and reminders may transmit Google-derived information through WhatsApp. Optional web searches send query text to Tavily.</p>
   <h2>Privacy</h2>
-  <p>Read the <a href="privacy.html">JARVIS Privacy Policy</a> for information about Google user data, storage, sharing, and revoking access.</p>
-  <footer>JARVIS — Private AI Assistant</footer>
+  <p>Read the <a href="privacy.html">JARVIS Privacy Policy</a> for data categories, purposes, storage, external processing, retention limitations and access revocation. This informational site does not connect to your Google account or collect OAuth tokens.</p>
+  <p>Privacy contact: <a href="mailto:judithannettupaz@gmail.com">judithannettupaz@gmail.com</a>.</p>
+  <footer>JARVIS — Privately Operated Assistant</footer>
 </main></body></html>
